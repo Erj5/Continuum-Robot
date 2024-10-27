@@ -16,4 +16,38 @@ In the search for innovative solutions for exploration in complex and inaccessib
 | 3D view 1                             | 3D view 2                         | 3D view 3                         |
 
 ### 3. 3D printing:
-  * The final design was exported and prepared for printing using the Cura software. 
+  * The final design was exported and prepared for printing using the Cura software.
+  * The material chosen for printing was PLA (Polylactic Acid) due to its ease of use, low warping tendency, and eco-friendly nature. PLA is a biodegradable thermoplastic derived from renewable resources, such as corn starch or sugarcane, and is well-suited for applications that prioritize environmental sustainability and precision over extreme strength or heat resistance.
+  * the parts that were printed for the support were assembled with M3 screws
+
+## Challenges and Solutions
+### Continuous robot nodes:
+The image shown in point 2 of the methodology shows the support of the robot and a small session of it, which presents the first nodes that were implemented, which provided limited and sometimes rigid movement. This is why the incorporation of silicone nodes was implemented as a change, to give greater flexibility and range of motion to the robot.
+
+| <img src="https://github.com/Erj5/Continuum-Robot/blob/main/nodo1.png" alt="Initial node" width="350"/> | <img src="https://github.com/Erj5/Continuum-Robot/blob/main/nodo2.png" alt="End node" width="350"/> |
+|:---------------------------------------------:|:--------------------------------------:|
+| Initial node                            | End node                        |
+
+As seen in the previous image, a change was implemented in the rigid nodes, decreasing the number of guide channels through which the fish line will pass (which will give movement to the continuous robot in conjunction with the pulleys and servomotors).
+
+| <img src="https://github.com/Erj5/Continuum-Robot/blob/main/polea.png" alt="Pulley" width="350"/> |
+|:---------------------------------------------:|
+| Pulley                            |
+
+The next step to implement was the creation of the flexible nodes (silicone) for which a mold was created, based on TPU, capable of storing the liquid silicone and retaining it until it dries. The material chosen for printing was TPU (Thermoplastic Polyurethane) due to its flexibility, elasticity, and resistance to abrasion. TPU is known for its ability to produce parts that are both durable and resilient, making it ideal for applications that require impact resistance, shock absorption, and flexibility, such as gaskets, protective covers, and custom-fit components.
+
+| <img src="https://github.com/Erj5/Continuum-Robot/blob/main/molde.png" alt="Mold" width="350"/> | <img src="https://github.com/Erj5/Continuum-Robot/blob/main/moldeA.png" alt="Mold A" width="400"/> | <img src="https://github.com/Erj5/Continuum-Robot/blob/main/moldeB.png" alt="Mold B" width="370"/> |
+|:---------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|
+| Mold                            | Mold A                           | Mold B                           |
+
+Once all these modifications have been made, a grip for the camera is developed in Fusion 360, which maintains a scheme similar to the nodes previously shown.
+
+| <img src="https://github.com/Erj5/Continuum-Robot/blob/main/grip.png" alt="Pulley" width="350"/> |
+|:---------------------------------------------:|
+| Grip                            |
+
+## Results
+The project resulted in the development of a functional and adaptable continuous exploration robot, suitable for navigating challenging terrain. The use of PLA provided a strong and stable structure, while the TPU molds allowed the creation of flexible silicone nodes that improve the mobility of the robot. Furthermore, the integration of Arduino-based electronics enabled precise control and responsiveness, making this robot an effective tool for exploratory tasks in complex environments.
+
+## Conclusion
+This project not only met the initial goals of designing a flexible and robust exploration robot, but also showed the effectiveness of advanced technologies, such as 3D printing and programmable electronics, in robotic innovation. The interdisciplinary approach, combining mechanical design, materials science and electronics, has demonstrated the potential for future projects in exploratory robotics and has opened new avenues for developing adaptive robotic systems for complex environments.
