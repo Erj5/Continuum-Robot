@@ -12,3 +12,4 @@ In the search for innovative solutions for exploration in complex and inaccessib
   * A mold is designed and created that will be used to make the flexible silicone nodes, which maintain the specifications of the rigid nodes.
 ### 3. 3D printing:
   * The final design was exported and prepared for printing using the Cura software. 
+![Robot de exploración](isometric.png)
