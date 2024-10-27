@@ -10,6 +10,10 @@ In the search for innovative solutions for exploration in complex and inaccessib
   * 6 pulleys are created and designed that will be mounted on the 6 corresponding servomotors, through which a piece of fishing line will be wound on each pulley.
   * The rigid nodes of the robot are designed and created, with small "guide" type holes for the fishing line to pass along the continuous robot. Additionally, the final node is designed with the same specifications, but adding a grip that will hold the camera.
   * A mold is designed and created that will be used to make the flexible silicone nodes, which maintain the specifications of the rigid nodes.
+
+| <img src="https://github.com/Erj5/Continuum-Robot/blob/main/Isometric.png" alt="3D view 1" width="250"/> | <img src="https://github.com/Erj5/Continuum-Robot/blob/main/front.png" alt="3D view 2" width="225"/> | <img src="https://github.com/Erj5/Continuum-Robot/blob/main/lateral.png" alt="3D view 3" width="300"/> |
+|:---------------------------------------------:|:--------------------------------------:|:------------------------------------------------------:|
+| 3D view 1                             | 3D view 2                         | 3D view 3                         |
+
 ### 3. 3D printing:
   * The final design was exported and prepared for printing using the Cura software. 
-
